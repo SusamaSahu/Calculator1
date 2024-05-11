@@ -1,0 +1,27 @@
+.btn{
+  
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px; 
+}
+.btn button{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.388);
+    border-radius: 50%;
+    background-color: rgba(210, 115, 254, 0.395);
+    padding:0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size:1.6rem;
+    color: rgba(0, 0, 0, 0.772); 
+
+
+
+}

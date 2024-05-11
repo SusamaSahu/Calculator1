@@ -1,0 +1,30 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    gap: 20px;
+}
+.display{
+    padding: 0.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.29);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
